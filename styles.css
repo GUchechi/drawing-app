@@ -41,3 +41,8 @@ canvas {
     padding: 0.25rem;
     cursor: pointer;
   }
+  
+
+.toolbox > *:last-child {
+    margin-left: auto;
+  }
