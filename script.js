@@ -13,7 +13,6 @@ canvas.addEventListener("mousedown", (e) => {
     x = e.offsetX;
     y = e.offsetY;
 
-    console.log(x,y);
 })
 
 canvas.addEventListener("mouseup", (e) => {
@@ -22,7 +21,10 @@ canvas.addEventListener("mouseup", (e) => {
     x = undefined;
     y = undefined;
 
-    console.log(isPressed,x,y);
+})
+
+canvas.addEventListener("mouseMove", (e) => {
+    
 })
 
 function drawCircle(x, y) {
